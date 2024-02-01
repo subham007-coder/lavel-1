@@ -88,7 +88,7 @@ main img{
     transform: translate(-50%, -50%) rotate(-10deg);
 }
 
-footer{
+/* footer{
     position: absolute;
     left: 105px;
     top: 93%;
@@ -96,13 +96,20 @@ footer{
     width: 100%;
     text-align: center;
     line-height: 30px;
+} */
+
+main h4{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
 }
 
-main footer #orange{
+#orange{
     width: 5px;
     position: absolute;
-    /* transform: translate(-1710%, -20%); */
-    left: 685px;
+    left: 3%;
+    bottom: 8%;
     height: 5px;
     border-radius: 50%;
     background-color: #FF4E26;
