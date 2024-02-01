@@ -87,3 +87,23 @@ main img{
 #img3{
     transform: translate(-50%, -50%) rotate(-10deg);
 }
+
+footer{
+    position: absolute;
+    left: 105px;
+    top: 93%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+}
+
+main footer #orange{
+    width: 5px;
+    position: absolute;
+    /* transform: translate(-1710%, -20%); */
+    left: 685px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #FF4E26;
+}
